@@ -1,0 +1,51 @@
+---
+title: "Sample Application Use Case on Shiny For Developing Data Product Course Project"
+author: "Raul Goycoolea"
+date: "July 26, 2015"
+output: slidy_presentation
+---
+
+## Introduction
+
+The objective of this presentation is to Introduce a Sample Data Analisis, manipulation and display on a frendly and easy to use Web Application.
+
+The sample Applications shows a basic Data set creating tool where the user can select size and repetions.
+
+Also you will be able to select the Distribution Type, and the application will update automatically the Graps generated. You don't need to understand the R code that is behind the app. You only need to select the options, then the app runs the analysis code and update the results on the web.
+
+As an add-on the Application has a "Download Sample Set" button, so the user can download a file to their own computer in a CSV format. On this way the user can review and do some analisis on the same data set locally for example on Excel.
+
+## Application Overview
+
+- Choose Sample Data Distribution Type from:
+  
+  Regular
+  Uniform
+  Logarithmic normal
+  Exponential
+
+- Clik on "Download Sample Set" if you like to have a CSV file downloaded to your computer 
+
+- You can Select a Sample Size from 1 to 300, and a Number of Repetitions from 1 to 10,000.
+
+- Finally there's a "Generate New Data Set" so you can generate new data with the selected size and repetions
+
+## Slide with R Code and Output
+
+```{r}
+library(RCurl)
+URL <- "https://s3.amazonaws.com/sdata141512/300.csv"
+x <- getURL(URL)
+out <- read.csv(textConnection(x))
+summary(out)
+```
+
+https://s3.amazonaws.com/sdata141512/300.csv
+
+## Slide with Plot
+
+```{r, echo=FALSE}
+
+plot(out)
+```
+
