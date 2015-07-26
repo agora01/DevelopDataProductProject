@@ -1,4 +1,7 @@
-README Introduction Data Sample
+Introduction Data Sample
+For Coursera Developing Data Products Course Project
+
+By Raul Goycoolea
 ====================================================================
 
 
