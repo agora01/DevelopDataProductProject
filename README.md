@@ -1,5 +1,4 @@
-Introduction Data Sample
-For Coursera Developing Data Products Course Project
+Introduction Data Sample for Coursera Developing Data Products Course Project
 ===================================================================
 
 
