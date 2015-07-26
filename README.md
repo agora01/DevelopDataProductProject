@@ -7,6 +7,8 @@ Disclosure
 
 These are the files produced during a homework assignment of Coursera's MOOC Developing Data Products from Johns Hopkins University, where students could pick any dataset, and should produce a web app hosted on RStudio shinyapss.io.
 
+You can find the App Running on Shiny Server and the GitHub Repo containing the Code on the following links:
+
 RStudio Shiny Server: https://agora01.shinyapps.io/DevelopDataProductProject
 
 GitHub Repo: https://github.com/agora01/DevelopDataProductProject/
