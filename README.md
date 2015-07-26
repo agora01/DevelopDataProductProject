@@ -5,7 +5,7 @@ README Introduction Data Sample
 Disclosure
 -------------------------- 
 
-These are the files produced during a homework assignment of Coursera's MOOC Developing Data Products from Johns Hopkins University, where students could pick any dataset, and should produce a web app hosted on SaaS platform from RStudio shinyapss.io.
+These are the files produced during a homework assignment of Coursera's MOOC Developing Data Products from Johns Hopkins University, where students could pick any dataset, and should produce a web app hosted on RStudio shinyapss.io.
 
 RStudio Shiny Server: https://dpaurelio.shinyapps.io/dpaurelio/
 RPubs presentation: http://rpubs.com/dpaurelio/30378
